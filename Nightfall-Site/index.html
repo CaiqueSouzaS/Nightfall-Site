@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightfall</title>
+    <!--Fontes-->
+      <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+          rel="stylesheet">
+      <!--Bootstrap-->
+      <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
+      <script
+          src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+      <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous"></script>
+      <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous"></script>
+      <script
+          src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="css/styles.css">
+      <!--Scripts-->
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+      <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+          integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+          crossorigin="anonymous"></script>
+
+
+      <!--JavaScript do Bootstrap-->
+      <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"></script>
+      <!--Importar FontAwesome-->
+      <script src="https://kit.fontawesome.com/7eef92c47b.js"
+          crossorigin="anonymous"></script>
+      <!--ProgressBar-->
+      <script src="js/progressbar.min.js"></script>
+      <link rel="js/progressbar.min.js" href="js/scripts.js">
+      <!--Parallax-->
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+      <header>
+          <div class="container" id="nav-container">
+              <nav class="navbar navbar-expand-lg fixed-top">
+                  <a href="#" class="navbar-brand">
+                      <img id="logo" src="img/Nightfall.png" alt="imagem de uma nuvem e estrela">Nightfall</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false"
+                aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu">Home</a>
+                    <a class="nav-item nav-link" id="about-menu">Sobre mim</a>
+                    <a class="nav-item nav-link" id="services-menu">Curriculo</a>
+                    <a class="nav-item nav-link" id="team-menu">Relacionados</a>
+                    <a class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                    <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                  </div>
+              </div>
+        </nav>
+    </div>
+</header>
+<main>
+  <div class="container-fluid">
+    <div id="mainSlider" class="carousel slide"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mainSlider"
+                            data-slide-to="0" class="active"></li>
+                        <li data-target="#mainSlider"
+                            data-slide-to="1"></li>
+                        <li data-target="#mainSlider"
+                            data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div></div>
+                        <div class="carousel-item active" id="c1">
+                            <img src="img/extraordinario.jpg" class="d-block w-100"
+                                alt="Imagem extraordinario">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Extraordinário</h2>
+                                <a href="#products-area" class="main-btn">Ver mais</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="c2">
+                            <img src="img/faren.jpg" class="d-block w-100"
+                                alt="Engenharia de software">
+                            <div class="carousel-caption d-md-block">
+                                <h2>Fahrenheit 451</h2>
+                                <a href="#products-area" class="main-btn">Ver mais</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item" id="c3">
+                            <img src="img/coraline.jpg" class="d-block w-100"
+                                alt="Manutenção em software">
+                            <div class="carousel-caption d-md-block">
+                                <h2>Coraline</h2>
+                                <a href="#products-area" class="main-btn">Ver mais</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#mainSlider"
+                        role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mainSlider"
+                        role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"
+                            aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+        <div id="about-area">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <div>
+                  <p></p>
+                </div>
+                <h3 class="main-title"><b>Sobre mim</b></h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="img/iconPerfil.jpg" alt="foto perfil">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Caique, 17 anos</h3>
+                <p> estudando no 2°D ETIM DS da ETEC Rosa Perrone Scavone.</p>
+                <p> Após sair da ETEC pretendo passar meus dias estudando e procurando emprego.</p>
+                <p> Pretendo trabalhar no mercado de jogos, mas ainda não tenho experiência na área.</p>
+                <p> Sempre que tentar vender jogos na Steam é bom criar uma empresa para pagar menos impostos.</p>
+                <ul id="about-list">
+                  <li><i class="fas fa-check"></i> Desempregado.</li>
+                  <li><i class="fas fa-check"></i> Preguiçoso.</li>
+                  <li><i class="fas fa-check"></i> Dorminhoco.</li>
+                  <li><i class="fas fa-check"></i> Esquecido.</li>
+                </ul>
+              </div>
+              <div>
+                <p></p>
+              </div>
+              <!--por que comprar conosco-->
+              <div id="services-area">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-12">
+                      <h3 class="main-title"><b>Porque comprar em nosso site</b></h3>
+                    </div>
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-check"></i>
+                      <h4><b>100% Originais</b></h4>
+                      <p>Compre sem medo de pegar falsificados.</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-check"></i>
+                      <h4><b>Bons livros</b></h4>
+                      <p>Compre livros de qualidade.</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-check"></i>
+                      <h4><b>Temos as melhores editoras conosco</b></h4>
+                      <p>Compre daquela editora que você gosta.</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-check"></i>
+                      <h4><b>Sempre com preços justos</b></h4>
+                      <p>Compre pagando o menor preço.</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                      <i class="fas fa-check"></i>
+                      <h4><b>Promoções e descontos que duram bastante tempo</b></h4>
+                      <p>Compre um livro por aquele desconto bacana e compartilhe com aquele amigo que sempre demora para responder.</p>
+                    </div>
+
+                    <div class="col-md-4 service-box">
+                      <i class="fa-solid fa-xmark"></i>
+                      <h4><b>Escrevemos uma biografia de você!</b></h4>
+                      <p>Não escrevemos biografias, ainda.</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Area de dados-->
+            <div id="data-area">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3 circle-box">
+                    <div id="circleA"></div>
+                    <p><b>Leitores</b></p>
+                  </div>
+                  <div class="col-md-3 circle-box">
+                    <div id="circleB"></div>
+                    <p><b>Escritores</b></p>
+                  </div>
+                  <div class="col-md-3 circle-box">
+                    <div id="circleC"></div>
+                    <p><b>Quantidade de livros vendidos</b></p>
+                  </div>
+                  <div class="col-md-3 circle-box">
+                    <div id="circleD"></div>
+                    <p><b>Quantidade de livros no estoque</b></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Area Recomendados-->
+            <div id="fav-area">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <h3 class="main-title"><b>Livros recomendados</b></h3>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <img src="img/coralinebook.jpg" class="class-img-top" alt="Livro Coraline">
+                      <div class="card-body">
+                        <h5 class="card-title">Coraline</h5>
+                        <p class="card-text">Coraline é uma novela fantástica de terror do autor britânico Neil Gaiman, publicado em 2002 pela Bloomsbury, no Reino Unido e pela Harper Collins, nos Estados Unidos.</div>
+                        </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <img src="img/farenbook.jpg" class="class-img-top" alt="Livro Fahrenheit 451">
+                      <div class="card-body">
+                        <h5 class="card-title">Fahrenheit 451</h5>
+                        <p class="card-text">
+                          Fahrenheit 451 é um romance distópico de ficção científica soft, escrito por Ray Bradbury e publicado pela primeira vez em 1953. O conceito inicial do livro começou em 1947 com o conto "Bright Phoenix". </p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <img src="img/extraordinariobook.jpg" class="class-img-top" alt="Livro Extraordinário">
+                      <div class="card-body">
+                        <h5 class="card-title">Extraordinário</h5>
+                        <p class="card-text">Wonder é um romance infantil escrito por Raquel Jaramillo, sob o pseudônimo R. J. Palacio. Publicada em 14 de fevereiro de 2012, conta a história de Auggie Pullman, um garoto que sofre da síndrome de Treacher Collins, que causa deformação facial.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card">
+                      <img src="img/tortoarado.jpg" class="class-img-top" alt="Livro Torto Arado">
+                      <div class="card-body">
+                        <h5 class="card-title">Torto Arado</h5>
+                        <p class="card-text">Torto arado nos oferece uma pequena redenção, a redenção da linguagem simples e poética da narrativa, a redenção através de personagens muito bem construídos, fortes e perseverantes, principalmente as mulheres.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Info Local-->
+            <div>
+              <p></p>
+            </div>
+            <div id="apply-area">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-6 apply-box" id="local-img"></div>
+                  <div class="col-md-6 apply-box" id="pattern-img">
+                    <h4><b>O real não está no início nem no fim, ele se mostra pra gente é no meio da travessia</b></h4>
+                    <p>Viver é buscar o tempo perdido, mas sobretudo se abrir a um tempo novo.</p>
+                    <p>Ler muda o mundo.</p>
+                    <a href="a" class="main-btn" id="apply-btn">Saiba Mais</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Portfólio-->
+              <div>
+                <p> </p>
+              </div>
+              <div>
+                <p> </p>
+              </div>
+            <div id="portfolio-area">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3 class="main-title"><b>Conheça algumas de nossas editoras parceiras</b></h3>
+                  </div>
+                  <div class="col-md-12" id="filter-btn-box">
+                    <button class="main-btn filter-btn active" id="all-btn">Todas</button>
+                    <button class="main-btn filter-btn" id="dev-btn">Fantasia</button>
+                    <button class="main-btn filter-btn" id="dsg-btn">Aventura</button>
+                    <button class="main-btn filter-btn" id="seo-btn">Ficção</button>
+                  </div>
+                  <div class="col-md-4 project-box dev">
+                    <img src="img/JBCLogo.png" class="img-fluid" alt="Logo da JBC">
+                  </div>
+                  <div class="col-md-4 project-box dsg">
+                    <img src="img/SaraivaLogo.png" class="img-fluid" alt="Logo da Saraiva">
+                  </div>
+                  <div class="col-md-4 project-box seo">
+                    <img src="img/EditoraDoBrasilLogo.png" class="img-fluid" alt="Logo da Editora do Brasil">
+                  </div>
+                  <div class="col-md-4 project-box dev">
+                    <img src="img/RoccoLogo.png" class="img-fluid" alt="Logo da editora Rocco">
+                  </div>
+                  <div class="col-md-4 project-box dsg">
+                    <img src="img/EditoraGloboLogo.png" class="img-fluid" alt="Logo da Editora Globo">
+                  </div>
+                  <div class="col-md-4 project-box seo">
+                    <img src="img/AbrilLogo.png" class="img-fluid" alt="Logo da editora Abril">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Entre em contato-->
+            <div id="news-area">
+              <div class="container">
+                <div class="col-md-12">
+                  <h3 class="main-title">Quer entrar em contato?</h3>
+                </div>
+                <p>Assine a lista de e-mails e receba informações exclusivas</p>
+                <form action="">
+                  <input type="text" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail">
+                  <input type="submit" id="news-btn" value="Inscrever">
+                </form>
+              </div>
+            </div>
+            <div>
+              <p></p>
+            </div>
+            <!-- Orçamento -->
+            <div>
+              <p></p>
+            </div>
+            <div id="call-area">
+              <div class="container">
+                  <div class="row">
+                    <p>Deseja fazer um orçamento sem compromisso?</p>
+                    <button class="main-btn" id="call-btn">Orçar</button>
+                  </div>
+                </div>
+            </div> 
+          </div>  
+    </main>
+    <!-- Rodapé -->
+    <div>
+      <p></p>
+    </div>
+    <footer>
+      <div id="contact-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main-title">Entre em contato</h3>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-phone"></i>
+                <p><span class="contact-tile">Ligue para:</span> (11)4002-8922</p>
+                <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-envelope"></i>
+                <p><span class="contact-tile">Envie um email:</span> topbaltayes@gmail.com</p>
+              </div>
+              <div class="col-md-4 contact-box">
+                <i class="fas fa-map-marker-alt"></i>
+                <p><span class="contact-tile">Venha tomar um café:</span> Rua dos Bobos nº0</p>
+              </div>
+              <div class="col-md-6" id="msg-box">
+                <p>Ou deixe uma mensagem:</p>
+              </div>
+              <div class="col-md-6" id="contact-form">
+                <form action="">
+                  <input type="text" class="form-control" placeholder="E-mail" name="email">
+                  <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                  <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
+                  <input type="submit" class="main-btn">
+                </form>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="copy-area">
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                <p>Desenvolvido por <a href="*InstagramRetirado*" target="_blank">Caique de Souza Silva</a> &copy; 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>                       
+      </div>
+  </div>
+</main>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
